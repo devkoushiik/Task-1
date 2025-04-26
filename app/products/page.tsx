@@ -19,7 +19,7 @@ export default async function ProductsPage() {
               className="h-full w-full object-cover rounded"
             />
           </div>
-          <h2 className="text-xl font-bold mt-2">{product.name}</h2>
+          <h2 className="text-xl font-bold mt-4">{product.name}</h2>
           <p className="text-gray-600 mt-1">${product.price}</p>
           <Link
             href={`/products/${product.id}`}
