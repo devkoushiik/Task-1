@@ -1,11 +1,11 @@
 import { fetchProducts, Product } from "@/lib/api";
+import React from "react";
 
 export interface ExtendedProduct extends Product {
   unique_id?: string;
   short_desc?: string;
   stock?: number;
 }
-import React from "react";
 
 export interface Category {
   id: number;
