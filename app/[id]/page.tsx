@@ -23,7 +23,7 @@ export interface ProductImage {
 
 const products: ExtendedProduct[] = await fetchProducts();
 const SingleProductPage = async ({ params }: { params: { id: string } }) => {
-  const { id } = params;
+  const { id } = await params;
 
   const products: ExtendedProduct[] = await fetchProducts();
 
