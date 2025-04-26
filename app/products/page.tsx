@@ -1,5 +1,4 @@
 import { fetchProducts } from "@/lib/api";
-import { log } from "console";
 import Link from "next/link";
 
 export default async function ProductsPage() {
